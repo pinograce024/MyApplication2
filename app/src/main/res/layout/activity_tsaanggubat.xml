@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".tsaanggubat">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/tsaanggubat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Forest tea/Tsaang gubat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Carmona retusa (Vahl) Masamune, also known as Tsaang Gubat, is an affordable, herbal medicine to help relieve abdominal pain and diarrhea in adults. It contains alpha-amyrin, beta-amyrin, and baurenol which have shown analgesic activity, anti-diarrheal and anti-spasmodic activity."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Methods:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Tsaang gubat Tea Preparation"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Pound or cut about half cup of Tsaang gubat leaves"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Then add in 2 cups of water "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Boil for 10 to 15 minutes, with open pot cover"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Let it steep and strain"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Store in a glass jar."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Consume within the day."/>
+
+
+</LinearLayout>

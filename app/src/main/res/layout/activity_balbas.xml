@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".balbas">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/balbaspusa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Cat’s whiskers/Balbas pusa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Orthosiphon stamineus (Cat’s Whiskers) is commonly used to treat renal inflammation, kidney stones, and dysuria. It contains antioxidant compounds like rosmarinic acid, beta-sitosterol, ursolic acid, glycolic acid, methylripariochromene A, bioflavonoids, and oleanolic acid. Methylripariochromene A present in the herb could decrease systolic blood pressure."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Methods:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•To make your own tea simply place 2-3 grams of finely chopped leaves into a cup "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="• Pour over 150 mls of boiling water. "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="• Let is steep for 10-15 minutes and then strain. "/>
+
+</LinearLayout>

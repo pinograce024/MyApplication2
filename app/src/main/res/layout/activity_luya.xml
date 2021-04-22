@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".luya">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/luya"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Ginger/Luya"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Ginger is a flowering plant that originated in Southeast Asia. It’s among the healthiest (and most delicious) spices on the planet. It belongs to the Zingiberaceae family, and it’s closely related to turmeric, cardamom, and galangal. The rhizome (underground part of the stem) is the part commonly used as a spice. It’s often called ginger root or, simply, ginger. Ginger can be used fresh, dried, powdered, or as an oil or juice. It’s a very common ingredient in recipes. It’s sometimes added to processed foods and cosmetics."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Methods:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•Thinly slice your fresh ginger. You don’t need to peel it first, but do rinse it and scrub off any visible dirt. Plan on about using about a one-inch piece of ginger per cup of tea."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="•In a saucepan, combine the ginger with fresh water (use one cup of water per serving)."/>
+</LinearLayout>

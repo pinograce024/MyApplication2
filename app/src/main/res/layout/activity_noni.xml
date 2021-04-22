@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".noni">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/noni"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Noni/Noni"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Noni is a small evergreen tree found in the Pacific Islands, Southeast Asia, Australia, and India. It often grows among lava flows. Historically, noni was used to make a red or yellow dye for clothing. It has also been used as medicine.
+
+People use noni for cancer, high blood pressure, athletic performance, and many other conditions, but there is no good scientific evidence to support these uses. The FDA has issued multiple warnings to noni manufacturers about health claims that aren't supported by research."/>
+
+</LinearLayout>

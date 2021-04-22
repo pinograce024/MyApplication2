@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".mallow">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/bitter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="King-of-bitters/Sinta"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Andrographis paniculata (Sinta) contains diterpene compounds called andrographolide, 14-deoxyandrographolide, and 14-deoxy-11, 12-didehydroandrographolide. Studies show that andrographolide is the major component of Andrographis extracts. Andrographolide is the main bioactive constituent that has anticancer activity tested on diverse human cancer cells. Research also suggests that the extract possesses hepatoprotective, antiviral, antimicrobial, anti-parasitic, antihypertensive, antihyperglycemic, immunomodulatory, and antiproliferative properties."/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".tanglad">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/tanglad"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Lemongrass/Tanglad"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Cymbopogon citratus (Lemongrass) is good for digestion and is popularly used to treat digestive problems or stomachache due to constipation, bloating, or indigestion. It is rich in vitamins, minerals, and phytoconstituents such as flavonoids and phenolic compounds, which consist of luteolin, isoorientin 2’-O-rhamnoside, quercetin, kaempferol, and apiginin. The phytoconstituents identified in lemongrass essential oils that contain Citral α, Citral β, Nerol Geraniol, Citronellal, Terpinolene, Geranyl acetate, Myrecene, and Terpinol Methylheptenone. The essential oil has antimicrobial, antinociceptive/analgesic, insect repellent, and digestion-improving properties. Studies show that citral which is present in lemongrass inhibits the growth of cancer cells."/>
+
+</LinearLayout>

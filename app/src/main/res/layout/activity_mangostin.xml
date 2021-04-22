@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".mangostin">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/mangostin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Mangosteen/Mangostin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Mangosteen (Garcinia mangostana) is an exotic, tropical fruit with a slightly sweet and sour flavor.
+
+It’s originally from Southeast Asia but can be found in various tropical regions around the world.
+
+The fruit is sometimes referred to as purple mangosteen because of the deep purple color its rind develops when ripe. In contrast, the juicy inner flesh is bright white.
+
+Though mangosteen is a relatively obscure fruit, it shouldn’t be overlooked, as it may offer many health benefits due to its rich supply of nutrients, fiber, and unique antioxidants."/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".malungay">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:src="@drawable/malungay"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="Moringa/Malunggay"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Moringa is a plant that is native to areas of India, Pakistan, Bangladesh, and Afghanistan. It is also grown in the tropics. The leaves, bark, flowers, fruit, seeds, and root are used to make medicine.
+
+Moringa is used for asthma, diabetes, obesity, symptoms of menopause, and many other conditions, but there is no good scientific evidence to support these uses.
+
+Oil from moringa seeds is used in foods, perfume, and hair care products, and as a machine lubricant.
+
+Moringa is an important food source in some parts of the world. Because it can be grown cheaply and easily, and the leaves retain lots of vitamins and minerals when dried, moringa is used in India and Africa in feeding programs to fight malnutrition. The immature green pods (drumsticks) are prepared similarly to green beans, while the seeds are removed from more mature pods and cooked like peas or roasted like nuts. The leaves are cooked and used like spinach, and they are also dried and powdered for use as a condiment.
+
+The seed cake remaining after oil extraction is used as a fertilizer and also to purify well water and to remove salt from seawater."/>
+
+
+</LinearLayout>

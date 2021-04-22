@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="HerbaCine"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".noni"></activity>
+        <activity android:name=".neem" />
+        <activity android:name=".malungay" />
+        <activity android:name=".oregano" />
+        <activity android:name=".mangostin" />
+        <activity android:name=".tanglad" />
+        <activity android:name=".mallow" />
+        <activity android:name=".saluyot" />
+        <activity android:name=".basil" />
+        <activity android:name=".Gotu" />
+        <activity android:name=".luya" />
+        <activity android:name=".Ganoderma" />
+        <activity android:name=".tsaanggubat" />
+        <activity android:name=".lagundi" />
+        <activity android:name=".balbas" />
+        <activity android:name=".capsicum" />
+        <activity android:name=".blumea" />
+        <activity android:name=".Blackcurrant" />
+        <activity android:name=".mulbery" />
+        <activity android:name=".ampalaya" />
+        <activity android:name=".asthma" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
